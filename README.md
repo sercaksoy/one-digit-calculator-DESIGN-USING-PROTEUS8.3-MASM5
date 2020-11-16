@@ -5,7 +5,7 @@
 2 adet 8255, 1 adey keypad, 1 adet 16 segment ANODE display, 1 adet 7 segment KATHODE display ile desteklenmiş 8086 mikro işlemcisi ile gerçeklenen 1 basamaklı hesap makinesi tasarımı.
 
 # SEMANIN TAMAMI
-<img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
+<img src="https://github.com/sercaksoy/one-digit-calculator-DESIGN-USING-PROTEUS8.3-MASM5/blob/main/supportive_images/full_schema.png">
 
 # YAPILMASI GEREKENLER
 <b>1</b>.Keypad den girilen 1. sayı değeri 7 segmentte gösterilmeli, (16 Segment henüz hiçbir şey göstermiyor)(Girdi alınan sayıya ilişkin negatiflik, çok basamaklılık, arda arda 2 sayı girme gibi kontrolleri yapmanıza gerek yok; ilk girilen değeri pozitif olarak alsın, yeterli.)
@@ -20,11 +20,11 @@
 Keypad için MM74C922 , 7 segment display için ise 4511 yardımcı devreleri kullanılabilir bunun dışında herhangi bir başka yardımcı eleman <u>KULLANILMAYACAKTIR.</u>
 
 <h2>16 segment DISPLAY için ledlerin numaraları :</h2>
-<img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
+<img src="https://github.com/sercaksoy/one-digit-calculator-DESIGN-USING-PROTEUS8.3-MASM5/blob/main/supportive_images/16-segment-display.png">
 <h2>Sadece belirtilen adreslemelerde 8255 lerin cevap vermesi için gerekli bağlantıların düzenlenmesi:</h2>
-<img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
+<img src="https://github.com/sercaksoy/one-digit-calculator-DESIGN-USING-PROTEUS8.3-MASM5/blob/main/supportive_images/data_gate.png">
 <h2>16 segmentte gerekli mesajın yazılması için ayarlanmış diziler:</h2>
-<img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
+<img src="https://github.com/sercaksoy/one-digit-calculator-DESIGN-USING-PROTEUS8.3-MASM5/blob/main/supportive_images/used_arrays.png">
 <h2>Soruda bahsedilen DELAY prosedürü:</h2>
-<img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
+<img src="https://github.com/sercaksoy/one-digit-calculator-DESIGN-USING-PROTEUS8.3-MASM5/blob/main/supportive_images/delay_procedure.png">
 
