@@ -6,8 +6,8 @@
 
 # YAPILMASI GEREKENLER
 <b>1</b>.Keypad den girilen 1. sayı değeri 7 segmentte gösterilmeli, (16 Segment henüz hiçbir şey göstermiyor)(Girdi alınan sayıya ilişkin negatiflik, çok basamaklılık, arda arda 2 sayı girme gibi kontrolleri yapmanıza gerek yok; ilk girilen değeri pozitif olarak alsın, yeterli.)
-<b>2</b>.Sonra herhangi dört işlem tuşuna basıldığında (+  -  x  :), 7 segmentte “0” değeri gösterilmeli. (16 Segment henüz hiçbir şey göstermiyor)
-<b>3.</b>2.sayıya bastığımızda ise 2. sayıyı göstermeden, <u>direkt işlemin sonucunu 7 segmentte göstermeli</u>. Bu noktada hatalı ve hatasız işlemlere göre 16 segmentin davranışı kontrol edilmeli.
+</br><b>2</b>.Sonra herhangi dört işlem tuşuna basıldığında (+  -  x  :), 7 segmentte “0” değeri gösterilmeli. (16 Segment henüz hiçbir şey göstermiyor)
+</br><b>3.</b>2.sayıya bastığımızda ise 2. sayıyı göstermeden, <u>direkt işlemin sonucunu 7 segmentte göstermeli</u>. Bu noktada hatalı ve hatasız işlemlere göre 16 segmentin davranışı kontrol edilmeli.
 
 <b>Hatasız işlem:</b> 3 + 5,   7 – 2,   6 : 2,   2 x 1 gibi sonucu pozitif olan, birbirine bölünebilen, 1 basamaklı  çıkış veren işlemleri dikkate alın ve sonucunu 7 segmente yazdırın; 16 segmente ise sırasıyla ‘O’ , ‘N’ , ‘A’ , ‘Y’ harflerini aralarda kısa süreli delay vererek yazdırın (DELAY PROSEDÜRÜ). 
 </br><b>Hatalı işlem:</b> 5 + 6,   2 – 7,   6 : 4,  2 x 8 … vb gibi sonucu negatif olan, tam bölünemeyen, 1 basamaktan fazla sonuç veren işlemleri ekranda, 7 segmenti tamamen söndürüp; 16 segmente sırasıyla ‘H’ , ‘A’ , ‘T’ , ‘A’ harflerini aralarda kısa süreli delay vererek yazdırın (DELAY PROSEDÜRÜ).
@@ -16,14 +16,14 @@
 
 Keypad için MM74C922 , 7 segment display için ise 4511 yardımcı devreleri kullanılabilir bunun dışında herhangi bir başka yardımcı eleman <u>KULLANILMAYACAKTIR.</u>
 
-###16 segment DISPLAY için ledlerin numaraları :
+<h2>16 segment DISPLAY için ledlerin numaraları :</h2>
 <img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
-###Sadece belirtilen adreslemelerde 8255 lerin cevap vermesi için gerekli bağlantıların düzenlenmesi:
+<h2>Sadece belirtilen adreslemelerde 8255 lerin cevap vermesi için gerekli bağlantıların düzenlenmesi:</h2>
 <img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
-###16 segmentte gerekli mesajın yazılması için ayarlanmış diziler:
+<h2>16 segmentte gerekli mesajın yazılması için ayarlanmış diziler:</h2>
 <img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
-###Soruda bahsedilen DELAY prosedürü:
+<h2>Soruda bahsedilen DELAY prosedürü:</h2>
 <img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
-###DEVRENIN TAMAMI:
+<h2>DEVRENIN TAMAMI:</h2>
 <img src="https://github.com/sercfornow/cacheBuffer-DESIGN-USING-C-PROGRAMMING-LANGUAGE/blob/master/screenshots/ss_1.png">
 
