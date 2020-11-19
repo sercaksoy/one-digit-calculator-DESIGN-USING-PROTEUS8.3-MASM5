@@ -5,7 +5,7 @@
 2 adet 8255, 1 adey keypad, 1 adet 16 segment ANODE display, 1 adet 7 segment KATHODE display ile desteklenmiş 8086 mikro işlemcisi ile gerçeklenen 1 basamaklı hesap makinesi tasarımı.
 
 ## CALISTIRILMASI ICIN:
-"one-digit-calculator.pdsprj" adlı dosyanın Proteus 8.3 sürümü ile çalıştırılması, ayrıca assembly kodunun derlenebilmesi için program çalıştırılmaya başlanmadan önce <>uMASM compilerın indirilmiş</u> olması gerekmektedir. Compiler'i etkin projede aktif hale getirdiğiniz takdirde projeyi simüle edebilirsiniz.
+"one-digit-calculator.pdsprj" adlı dosyanın Proteus 8.3 sürümü ile çalıştırılması, ayrıca assembly kodunun derlenebilmesi için program çalıştırılmaya başlanmadan önce <uMASM compilerın indirilmiş</u> olması gerekmektedir. Compiler'i etkin projede aktif hale getirdiğiniz takdirde projeyi simüle edebilirsiniz.
 
 
 # SEMANIN TAMAMI
